@@ -1,0 +1,75 @@
+# Environment files
+*.env
+*.env.*
+.env.local
+.env.production
+.env.example
+!.env.example
+
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+.yarn/*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+env/
+venv*/
+ENV/
+
+# Build outputs
+/build
+/dist
+/out
+.next/
+/.next
+*.tsbuildinfo
+
+# Logs and debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing
+/coverage
+*.lcov
+
+# Database
+*.sqlite
+*.sqlite3
+dump.rdb
+
+# Large files and archives
+**/*.zip
+**/*.tar.gz
+**/*.tar
+**/*.tgz
+
+# Private keys and certificates
+*.pem
+*.p12
+*.key
+
+# Credentials
+*token.json*
+*credentials.json*
